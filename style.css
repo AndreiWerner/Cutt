@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px
+}
+
+@media (max-width:720px){
+
+header{
+
+width: 100vw;
+height: 24vh;
+background-color: black;
+
+}
+
+header > picture>img {
+
+    width: 40vw;
+    position: absolute;
+    transform:  translate(68%, 40%);
+}
+
+header > a > p {
+    color: white;
+    display: inline-block;
+    margin:12px;
+    transform: translate(0%, 700%);
+    
+}
+
+.bloco1{
+
+    background-image: url(img/bloco1.jpg);
+    background-attachment: fixed;
+    height: 80vh;
+}
+
+.bloco2 {
+    background-color: rgb(1, 61, 1);
+    height: 70vh;
+}
+
+}
